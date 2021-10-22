@@ -14,6 +14,18 @@ object MathUtils {
         return sqrt((x1 - x2).pow((2).toDouble()) + (y1 - y2).pow((2).toDouble()))
     }
     //TODO: 两圆相交坐标求解（月底能有时间弄）（TargetStrafe）
+    /*
+    
+    @JvmStatic
+    fun getPtLdist(a: Double, b: Double, x1: Double, y1: Double, x2: Double, y2: Double, length: Double):Double {
+        return 0.0
+    }
+    
+    @JvmStatic
+    fun getLtLintersection(a1: Double, b1: Double, a2: Double, b2: Double, x1: Double, y1: Double, x2: Double, y2: Double, accuracy: Double, runtimes: Int):Double {
+        return 0.0
+    }
+    */
 
     @JvmStatic
     fun lerp(a: Array<Double>, b: Array<Double>, t: Double) = arrayOf(a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
